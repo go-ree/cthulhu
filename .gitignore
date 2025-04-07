@@ -1,0 +1,13 @@
+### gitignore template
+.idea
+*.log
+*.tgz
+*/*.tgz
+logs
+log
+cmd
+venv
+env
+.DS_Store
+tmp/
+tmp/*
