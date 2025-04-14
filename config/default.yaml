@@ -1,0 +1,15 @@
+db:
+#  conn_str: "root:123@/test?charset=utf8"
+
+web:
+  address: ":8080"
+
+log:
+  level: "info"
+  accessLogfile: "log/access.log"
+  runtimeLogfile: "log/runtime.log"
+
+# 精确到秒
+job:
+#  jobname:
+#    cron: "* * * * * *"
