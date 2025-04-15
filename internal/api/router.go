@@ -9,7 +9,7 @@ import (
 )
 
 func Router(r gin.IRouter) {
-	// Swagger 路由
+	// Swagger 路由展示
 	r.GET("/wiki", func(c *gin.Context) { c.Redirect(http.StatusMovedPermanently, "/swagger/index.html") })
 	r.GET("/swagger/*any", ginSwagger.WrapHandler(swaggerFiles.Handler))
 	r.GET("/home", controller.Home)
